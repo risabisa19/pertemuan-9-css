@@ -1,0 +1,434 @@
+.sidebar{
+    position: absolute;
+    width: 1440px;
+    height: 163px;
+    left: 0px;
+    top: -25px;
+  
+    background: #F1E1AA;
+  }
+
+  .sidebar h1{
+    position: absolute;
+    width: 218px;
+    height: 126px;
+    left: 27px;
+    top: -5px;
+  
+    font-family: Post No Bills Jaffna;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 120px;
+  
+    color: #000000;
+  }  
+
+/* navbar */
+.sidebar li{
+    position: absolute;
+    width: 473px;
+    height: 35px;
+    left: 951px;
+    top: 82px;
+    
+    font-family: Ponnala;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 49px;
+    text-align: center;
+    
+    color: #000000;
+    
+        
+    display: inline-block; 
+}
+a{
+        display:block;
+        padding: 10px 10px;
+        float: right;
+        text-decoration: none;
+        color: #000000;
+    }
+    a:hover{
+        background-color: #BDAA87;
+        color: #ffff;
+    }    
+
+/* judul halama */
+
+body h1{
+    position: absolute;
+    width: 502px;
+    height: 90px;
+    left: 510px;
+    top: 154px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 90px;
+    
+    /* identical to box height */
+    
+    color: #EABB8F;   
+    
+}
+
+/* deskripsi julhal */
+
+body p{
+    position: absolute;
+    width: 405px;
+    height: 32px;
+    left: 516px;
+    top: 262px;
+    
+    font-family: Port Lligat Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 32px;
+    
+    color: #000000;      
+}
+
+
+
+/*box profil*/
+main{
+    position: absolute;
+    width: 1015px;
+    height: 488px;
+    left: 0px;
+    top: 358px;
+    z-index: 1;
+    
+    background: rgba(241, 225, 170, 0.46);
+}
+
+/* Profil Perusahaan */
+
+.content h3{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 507px;
+    top: 10px;
+    
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    
+    color: #7D5128;
+    
+}
+
+/*deskripsi profil */
+
+.content p{
+    position: absolute;
+    width: 484px;
+    height: 278px;
+    left: 358px;
+    top: 90px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #9B7241;    
+}
+
+/* box inpo tambahan */
+
+aside{
+    position: relative;
+    width: 421px;
+    height: 488px;
+    left: 1019px;
+    top: 352px;
+    background: #F9D9A9;    
+}
+
+/* deskripsi inpo tambahan */
+
+.infotambahan p{
+    position: center;
+    width: 157px;
+    height: 31px;
+    left: 80px;
+    top: 45px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 43px;
+    
+    color: #6B5846;   
+}
+
+
+/* box artikel 1 */
+
+.artikel1 {
+    position: absolute;
+    width: 284px;
+    height: 149px;
+    left: 0px;
+    top: 20px;
+    z-index: 3;
+    background: linear-gradient(0deg, #D3B69C, #D3B69C), linear-gradient(0deg, #D3B69C, #D3B69C), linear-gradient(0deg, #D3B69C, #D3B69C), linear-gradient(0deg, #D3B69C, #D3B69C), #D3B69C;
+      
+}
+
+/* judul artikel 1 */
+.artikel1 h3{
+    position: absolute;
+    width: 90px;
+    height: 29px;
+    left: 87px;
+    top: 14px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    
+    color: rgb(230, 152, 79);    
+}
+
+/* deskripsi artikel 1 */
+.artikel1 p{
+    position: absolute;
+    width: 204px;
+    height: 67px;
+    left: 30px;
+    top: 59px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #9B7241;
+       
+}
+
+/* box artikel 2 */
+
+.artikel2 {
+    position: absolute;
+    width: 284px;
+    height: 149px;
+    left: 0px;
+    top: 181px;
+    z-index: 3;
+    background: linear-gradient(0deg, #D3B69C, #D3B69C), linear-gradient(0deg, #D3B69C, #D3B69C), linear-gradient(0deg, #D3B69C, #D3B69C), linear-gradient(0deg, #D3B69C, #D3B69C), #D3B69C;
+        
+}
+
+/* judul artikel 2 */
+
+.artikel2 h3{
+    position: absolute;
+    width: 93px;
+    height: 29px;
+    left: 87px;
+    top: 14px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    
+    color: rgb(230, 152, 79); 
+    
+    
+}
+
+/* deskripsi artikel 2 */
+
+.artikel2 p {
+    position: absolute;
+    width: 204px;
+    height: 67px;
+    left: 30px;
+    top: 59px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #9B7241;
+            
+}
+
+/* box artikel 3 */
+
+.artikel3{
+    position: absolute;
+    width: 284px;
+    height: 149px;
+    left: 0px;
+    top: 343px;
+    
+    background: linear-gradient(0deg, #D3B69C, #D3B69C), linear-gradient(0deg, #D3B69C, #D3B69C), linear-gradient(0deg, #D3B69C, #D3B69C), linear-gradient(0deg, #D3B69C, #D3B69C), #D3B69C;    
+}
+
+/* judul artikel 3 */
+
+.artikel3 h3{
+    position: absolute;
+    width: 93px;
+    height: 29px;
+    left: 87px;
+    top: 14px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    
+    color: rgb(230, 152, 79);
+        
+}
+
+/* deskripsi artikel 3 */
+
+.artikel3 p{
+    position: absolute;
+    width: 204px;
+    height: 67px;
+    left: 30px;
+    top: 59px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #9B7241;
+    
+    
+}
+
+/* box footer  */
+
+footer{
+    position: absolute;
+    width: 1440px;
+    height: 124px;
+    left: 0px;
+    top: 875px;
+    
+    background: #F1E1AA;    
+}
+
+/*nama crop footer */
+
+.namacrop{
+    position: absolute;
+    width: 300px;
+    height: 52px;
+    left: 27px;
+    top: -35px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 51px;
+    
+    color: #EABB8F;      
+}
+
+/* deskripsi alamat */
+
+.namacrop p{
+    position: absolute;
+    width: 318px;
+    height: 45px;
+    left: 6px;
+    top: 85px;
+    
+    font-family: Port Lligat Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    
+    color: #000000;    
+    
+}
+
+/* kontak kami */
+
+.contact h3{
+    position: absolute;
+    width: 266px;
+    height: 42px;
+    left: 584px;
+    top: -5px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+    
+    color: #7D6744;    
+}
+
+/* tlp dan ig */
+
+.contact p{
+    position: absolute;
+    width: 266px;
+    height: 23px;
+    left: 569px;
+    top: 80px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    
+    color: #000000;    
+}
+
+/* link bawah */
+
+.link h3{
+    position: absolute;
+    width: 361px;
+    height: 23px;
+    left: 1072px;
+    top: 64px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #B9916C;    
+}
